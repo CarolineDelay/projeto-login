@@ -16,7 +16,7 @@ Lilás: #5f2c82
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-color: #822c7b;
     height:  100vh;
     width: 100vw;
 }
@@ -41,11 +41,13 @@ section#login {
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.450);
 
+    transition: width .3s, height .3s;
+
 }
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/flores.jpg) no-repeat;
+    background: #822c7b url(../imagens/flores.jpg) no-repeat;
     background-position: left bottom;
     background-size: cover;
     height: 200px;
