@@ -16,7 +16,7 @@ Lilás: #5f2c82
 }
 
 body, html {
-    background-color: #822c7b;
+    background-color: #97347a;
     height:  100vh;
     width: 100vw;
 }
@@ -37,7 +37,7 @@ section#login {
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.450);
 
@@ -47,7 +47,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #822c7b url(../imagens/flores.jpg) no-repeat;
+    background: #ce65ae url(../imagens/flores.jpg) no-repeat;
     background-position: left bottom;
     background-size: cover;
     height: 200px;
@@ -57,3 +57,68 @@ section#login > div#formulario {
     display: block;
     padding:10px;
 }
+
+
+div#formulario > h1 {
+    text-align: center;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+}
+
+form > div.campo {
+    background-color: #ce65ae;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #ce65ae;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #611e4d;
+    
+}
+
+
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: rgb(241, 233, 233);
+    color:#ce65ae;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: #611e4d;
+}
+
+form > a.botao > i {
+    font-size: 0.8em;
+}
+
+
